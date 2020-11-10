@@ -23,8 +23,7 @@ namespace Caronte
             /// salva o arquivo
 
             FactoryLayout
-                .GetLayout(dados)
-                .getData(dados)
+                .GetLayout(dados)                
                 .Save(@"D:\arquivo1.txt");
                  
             
