@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "WtOt+odyM52cGMCn8CBarn7gbtKR3WDNO5pgYCLi98lQqmGL08st1xq+ZHxS0i6ikioUnt23iYQ/zav39xF7eQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\savastante\\source\\repos\\CorongaFileText\\Caronte\\Caronte.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\savastante\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,60 @@
+{
+  "Descript": "INEP - ALUNO",
+  "FormatName": "0000000000000000240777",
+  "Sequence": 1,
+  "Author": "Savastane",
+  "Date": "0000000000000000240777",
+  "Rows": [
+    {
+      "Type": "Alfa",
+      "Name": "Registro",
+      "Descript": "Tipo de registro",
+      "Size": "2",
+      "Requerid": "true"
+    },
+    {
+      "Type": "Inteiro",
+      "Name": "Codigo",
+      "Descript": "Código da Escola",
+      "Format": "D8",
+      "Size": "8",
+      "Requerid": "true"
+    },
+    {
+      "Type": "Inteiro",
+      "Name": "Situacao",
+      "Descript": "Situação de funcionamento",
+      "Size": "1",
+      "Range": "1,2,3"
+    },
+    {
+      "Type": "Data",
+      "Name": "DataInicio",
+      "Descript": "Data de início do ano letivo",
+      "Format": "dd/MM/yyyy",
+      "Size": "10",
+      "Requerid": "ValidaDataInicial"
+    },
+    {
+      "Type": "Data",
+      "Name": "DataTermino",
+      "Descript": "Data  Termino do ano letivo",
+      "Format": "dd/MM/yyyy",
+      "Size": "10",
+      "Requerid": "ValidaDataTermino"
+    },
+    {
+      "Type": "Inteiro",
+      "Name": "Zona",
+      "Descript": "Zona Escolar",
+      "Size": "1"
+    },
+    {
+      "Type": "Alfa",
+      "Name": "Nome",
+      "Descript": "Nome da escola",
+      "Size": "100",
+      "Requerid": "true"
+    }
+  ]
+}
