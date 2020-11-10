@@ -24,7 +24,7 @@ namespace Caronte
 
             FactoryLayout
                 .GetLayout(dados)                
-                .Save(@"D:\arquivo1.txt");
+                .Export(@"D:\arquivo1.txt");
                  
             
 

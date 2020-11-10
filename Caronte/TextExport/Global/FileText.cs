@@ -21,7 +21,7 @@ namespace infraestrutura.TextExport
 
 		
 
-		public FileTextInterface getData(dynamic datarows)
+		public FileTextInterface GetData(dynamic datarows)
 		{
 		     DataRows = datarows;
 
@@ -31,7 +31,7 @@ namespace infraestrutura.TextExport
 		}
 
 
-		public void Save(string destino)
+		public void Export(string destino)
 		{
 			StringBuilder buid = new StringBuilder();
 			//JProperty

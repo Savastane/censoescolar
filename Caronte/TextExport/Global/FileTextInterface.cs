@@ -10,9 +10,9 @@ namespace infraestrutura.TextExport
 	{
 
 
-		FileTextInterface getData(dynamic datarows);
+		FileTextInterface GetData(dynamic datarows);
 
-		public void Save(string destino);
+		public void Export(string destino);
 
 
 

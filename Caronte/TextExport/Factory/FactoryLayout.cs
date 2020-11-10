@@ -23,7 +23,7 @@ namespace Caronte.TextExport.Factory
                 if (dados[0].Registro == "00")
                 {
                     var arquivo = Newtonsoft.Json.JsonConvert.DeserializeObject<IdentificacaoEscolaLayout>(IdentificacaoEscolaLayoutJson);
-                    arquivo.getData(dados);
+                    arquivo.GetData(dados);
 
                     return arquivo;
                 }
