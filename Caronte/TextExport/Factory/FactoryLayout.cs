@@ -13,7 +13,7 @@ namespace Caronte.TextExport.Factory
     {
         static public FileTextInterface GetLayout(dynamic dados)
         {
-            using (StreamReader JsonStream = new StreamReader("../../../layout/LayoutINEP.json"))
+            using (StreamReader JsonStream = new StreamReader("../../../layout/IdentificacaoEscolaLayout.json"))
             {
 
                 // Load Layout 
