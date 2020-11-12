@@ -44,17 +44,116 @@
       "Requerid": "ValidaDataTermino"
     },
     {
-      "Type": "Inteiro",
-      "Name": "Zona",
-      "Descript": "Zona Escolar",
-      "Size": "1"
-    },
-    {
       "Type": "Alfa",
       "Name": "Nome",
       "Descript": "Nome da escola",
       "Size": "100",
       "Requerid": "true"
+    },
+    {
+      "Type": "Inteiro",
+      "Name": "CEP",
+      "Descript": "CEP",
+      "Size": "8",
+      "Requerid": "true"
+    },
+    {
+      "Type": "Inteiro",
+      "Name": "Municipio",
+      "Descript": "Municipio",
+      "Size": "7",
+      "Requerid": "true"
+    },
+    {
+      "Type": "Inteiro",
+      "Name": "Distrito",
+      "Descript": "Distrito",
+      "Size": "7",
+      "Requerid": "true"
+    },
+    {
+      "Type": "Alfa",
+      "Name": "Endereco",
+      "Descript": "Endereco",
+      "Size": "100",
+      "Requerid": "true"
+    },
+    {
+      "Type": "Alfa",
+      "Name": "Complemento",
+      "Descript": "Complemento do Endereco",
+      "Size": "20",
+      "Requerid": "false"
+    },
+    {
+      "Type": "Alfa",
+      "Name": "Bairro",
+      "Descript": "Bairro do Endereco",
+      "Size": "20",
+      "Requerid": "false"
+    },
+    {
+      "Type": "Inteiro",
+      "Name": "DDD",
+      "Descript": "DDD do Endereco",
+      "Size": "2",
+      "Requerid": "true"
+    },
+    {
+      "Type": "Inteiro",
+      "Name": "Telefone",
+      "Descript": "Telefone",
+      "Size": "9",
+      "Requerid": "false"
+    },
+    {
+      "Type": "Inteiro",
+      "Name": "TelefoneContato",
+      "Descript": "TelefoneContato",
+      "Size": "9",
+      "Requerid": "false"
+    },
+    {
+      "Type": "Alfa",
+      "Name": "Email",
+      "Descript": "Email",
+      "Size": "50",
+      "Requerid": "false"
+    },
+    {
+      "Type": "Alfa",
+      "Name": "CodigoOrgaoRegional",
+      "Descript": "Código Orgão Regional de Ensino",
+      "Size": "5",
+      "Requerid": "false"
+    },
+    {
+      "Type": "Inteiro",
+      "Name": "Zona",
+      "Descript": "Localização / Zona da escola",
+      "Size": "1",
+      "Requerid": "true"
+    },
+    {
+      "Type": "Inteiro",
+      "Name": "LocalizacaoDiferenciada",
+      "Descript": "Localização diferenciada da escola",
+      "Size": "1",
+      "Requerid": "true"
+    },
+    {
+      "Type": "Inteiro",
+      "Name": "DependenciaAdministrativa",
+      "Descript": "Localização diferenciada da escola",
+      "Size": "1",
+      "Position": 21,
+      "Requerid": "true"
+
+    }
+  ],
+  "Rules": [
+    {
+      "Name": "DDD"
     }
   ]
 }
