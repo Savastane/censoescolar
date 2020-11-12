@@ -8,6 +8,7 @@ namespace Caronte.Model
 {
     public class IdentificacaoEscolaModel
     {
+
         public string Regitro { get; set; }
         public long Codigo { get; set; }
         public long Situacao { get; set; }
@@ -15,6 +16,8 @@ namespace Caronte.Model
         public string Nome { get; set; }
         public DateTime DataInicio { get; set; }
         public DateTime DataTermino { get; set; }
+
+        public string Bairro { get; set; }
 
 
 
